@@ -1,0 +1,41 @@
+$ next build
+[MDX] generated files in 9.2695769999998ms
+▲ Next.js 16.1.1 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 7.9s
+  Running TypeScript ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/29) ...
+  Generating static pages using 11 workers (7/29) 
+  Generating static pages using 11 workers (14/29) 
+  Generating static pages using 11 workers (21/29) 
+✓ Generating static pages using 11 workers (29/29) in 1171.3ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/search
+├ ● /docs/[[...slug]]
+│ ├ /docs/about
+│ ├ /docs/architecture
+│ ├ /docs/developers
+│ └ [+5 more paths]
+├ ○ /llms-full.txt
+├ ● /llms.mdx/docs/[[...slug]]
+│ ├ /llms.mdx/docs/about
+│ ├ /llms.mdx/docs/architecture
+│ ├ /llms.mdx/docs/developers
+│ └ [+5 more paths]
+└ ● /og/docs/[...slug]
+  ├ /og/docs/about/image.png
+  ├ /og/docs/architecture/image.png
+  ├ /og/docs/developers/image.png
+  └ [+5 more paths]
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
